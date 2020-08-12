@@ -7,4 +7,4 @@ int main() {
     printf("DIFERENCA = %d\n", diferenca);
 
     return 0;
-}  
+} 
