@@ -1,10 +1,10 @@
 #include <stdio.h>
  
 int main() {
-    double a, b, media = 0;
-    scanf("%lf%lf", &a, &b);
-    media = ((a*3.5) + (b*7.5))/11;
-    printf("MEDIA = %.5lf\n", media);
+    int a, b, prop = 0;
+    scanf("%d%d", &a, &b);
+    prop = a * b;
+    printf("PROD = %d\n", prop);
 
     return 0;
 }  
